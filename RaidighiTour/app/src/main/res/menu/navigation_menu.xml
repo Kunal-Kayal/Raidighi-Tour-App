@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/visiting_place"
+        android:title="@string/vsiting_place"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/education"
+        android:title="@string/education"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/public_place"
+        android:title="@string/public_place"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/emergency_help"
+        android:title="@string/emergency_help"
+        android:icon="@mipmap/ic_launcher"/>
+    <item android:id="@+id/events"
+        android:title="@string/events"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/exitng_point"
+        android:title="@string/exiting_point"
+        android:icon="@mipmap/ic_launcher"/>
+</menu>

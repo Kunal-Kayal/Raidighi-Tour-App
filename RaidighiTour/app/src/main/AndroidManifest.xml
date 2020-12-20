@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.raidighitour">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaidighiTour">
+        <activity
+            android:name=".GramPanchayet"
+            android:label="Gram Panchayet"
+            android:parentActivityName=".EmergencyHelp"/>
+        <activity
+            android:name=".BDO"
+            android:label="BDO"
+            android:parentActivityName=".EmergencyHelp"/>
+        <activity
+            android:name=".PostOffice"
+            android:label="Post Office"
+            android:parentActivityName=".EmergencyHelp"/>
+        <activity
+            android:name=".PoliceStation"
+            android:label="Police Station"
+            android:parentActivityName=".EmergencyHelp"/>
+        <activity
+            android:name=".RaidighiHospital"
+            android:label="Raidighi Hospital"
+            android:parentActivityName=".EmergencyHelp"/>
+        <activity
+            android:name=".ExitingPoint"
+            android:label="Exiting Points" />
+        <activity
+            android:name=".Events"
+            android:label="Events" />
+        <activity
+            android:name=".EmergencyHelp"
+            android:label="Emergency Help" />
+        <activity
+            android:name=".PublicPlace"
+            android:label="Public Place" />
+        <activity
+            android:name=".Education"
+            android:label="Eduaction" />
+        <activity
+            android:name=".VisitingPlace"
+            android:label="Visiting Place" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
